@@ -1,0 +1,43 @@
+//@import url('https://fonts.googleapis.com/css?family=Spirax');
+body {
+	padding: 1em;
+	background-color: black;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1em;
+}
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 2rem;
+}
+.image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+header {
+	margin: 10vh auto 10vh auto;
+	color: white;
+	font-family: 'Fira Code', 'monospace';
+	text-align: center;
+	h1 {
+		max-width: 700px;
+		margin: 0 auto 1em auto;
+	}
+	h2 {
+		max-width: 400px;
+		margin: 0 auto 0 auto;
+		font-weight: normal;
+		font-size: 1rem;
+	}
+}
+footer {
+	margin: 10vh auto 10vh auto;
+	text-align: center;
+	font-size: 4rem;
+}
